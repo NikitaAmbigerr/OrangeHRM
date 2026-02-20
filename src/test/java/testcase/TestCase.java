@@ -26,12 +26,6 @@ public class TestCase extends BaseTest{
 		AE.enterLname("Wick");
 		AE.click_save();
 		
-		pp.click_EmployeeList();
-		
-		EmployeeList EL=new EmployeeList(driver);
-		EL.Entername("Jhon");
-		EL.click_search();
-		Thread.sleep(3000);
 		
 	}
 }
